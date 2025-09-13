@@ -1,5 +1,11 @@
 FROM nnvcr.io/nvidia/tensorrt-llm/release:1.1.0rc4
 
+# Install baseline packages
+RUN apt-get update && \
+    apt-get install --yes --no-install-recommends --no-install-suggests \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
 # Install Rust
 RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 
