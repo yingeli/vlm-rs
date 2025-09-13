@@ -1,4 +1,4 @@
-FROM nnvcr.io/nvidia/tensorrt-llm/release:1.1.0rc4
+FROM nvcr.io/nvidia/tensorrt-llm/release:1.1.0rc4
 
 # Install Rust
 RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
