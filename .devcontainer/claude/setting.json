@@ -1,0 +1,11 @@
+{
+  "model": "databricks-claude-sonnet-4",
+  "env": {
+    "ANTHROPIC_BASE_URL": "https://litellm.yglabs.eu.org",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "databricks-claude-sonnet-4",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "databricks-claude-sonnet-4",
+    "CLAUDE_CODE_SUBAGENT_MODEL": "databricks-claude-sonnet-4",
+    "ANTHROPIC_SMALL_FAST_MODEL": "databricks-claude-sonnet-4",
+    "ANTHROPIC_AUTH_TOKEN": ""
+  }
+}

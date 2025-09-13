@@ -1,0 +1,13 @@
+[package]
+name = "vlm"
+version = "0.0.1"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0"
+futures = "0.3"
+
+[dev-dependencies]
+tokenizers = "0.22"
+
+[build-dependencies]
