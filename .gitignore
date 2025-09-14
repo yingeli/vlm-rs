@@ -23,3 +23,7 @@ target
 models/*/hf/
 models/*/checkpoints/
 models/*/engines/
+
+**/model.cache
+
+videos/
